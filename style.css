@@ -1,0 +1,454 @@
+/* utilities */
+* {
+    font-family: outfit;
+    color: white;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: grey;
+    letter-spacing: 5px;
+}
+
+span {
+    color: grey;
+}
+
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+.text {
+    color: white;
+}
+
+a:hover {
+    color: #a555ed;
+}
+
+.tgl {
+    color: grey;
+}
+
+/* utilities */
+
+/* navbar */
+.navbar .navbar-brand img {
+    width: 120px;
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+.navbar .btn {
+    background: linear-gradient(to right, #a555ed, #7800e3);
+    width: 120px;
+
+    color: white;
+}
+
+.navbar .btn:hover {
+    background: none;
+    border: 1px solid #a555ed;
+    color: white;
+    font-weight: 600;
+}
+
+.navbar .nav-link {
+    margin-right: 30px;
+}
+
+.navbar .nav-link:hover {
+    color: #a555ed;
+}
+
+.navbar .divider {
+    border-left: 1px solid grey;
+    margin-right: 20px;
+}
+
+.navbar .data-icon {
+    color: #a555ed;
+}
+
+/* navbar */
+
+/* hero */
+#hero .nav .nav-link {
+    color: white;
+    margin-right: 20px;
+}
+
+#hero .nav .active {
+    background: none;
+    border: 1px solid #a555ed;
+}
+
+#hero .carousel-inner {
+    border-radius: 20px;
+}
+
+#hero .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.50);
+    border-radius: 10px;
+}
+
+#hero .card {
+    background: none;
+    border: none;
+}
+
+#hero .card img {
+    border-radius: 20px;
+}
+
+#hero .popular-news a:hover {
+    text-decoration: underline;
+    color: #a555ed;
+}
+
+#hero .popular-news .card img {
+    border-radius: 20px;
+}
+
+/* hero */
+
+/* login */
+#login {
+    margin-top: 50px;
+    color: white;
+}
+
+#login a {
+    text-decoration: none;
+}
+
+#login h5 {
+    text-align: center;
+}
+
+#login p {
+    text-align: center;
+}
+
+.bg-login {
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 15px 10px #A555ED;
+}
+
+.bg-login .btn {
+    background: linear-gradient(to right, #a555ed, #7800e3);
+    border: none;
+    color: white;
+}
+
+#login .text {
+    color: dodgerblue;
+}
+
+#login a:hover {
+    color: #a555ed;
+}
+
+/* login */
+
+/* signup */
+#signup {
+    margin-top: 50px;
+    color: white;
+}
+
+#signup a {
+    text-decoration: none;
+}
+
+#signup h5 {
+    text-align: center;
+}
+
+#signup p {
+    text-align: center;
+}
+
+.bg-signup {
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 15px 10px #A555ED;
+}
+
+.bg-signup .btn {
+    background: linear-gradient(to right, #a555ed, #7800e3);
+    border: none;
+    color: white;
+}
+
+/* signup */
+
+/* account */
+#account {
+    color: white;
+}
+
+#account .card {
+    padding: 30px;
+}
+
+#account .card label {
+    text-transform: uppercase;
+    color: grey;
+    letter-spacing: 5px;
+    padding-top: 5px;
+}
+
+#account .form-modal label {
+    margin-top: 5px;
+}
+
+/* account */
+
+/* library */
+#library {
+    color: white;
+}
+
+#library a {
+    text-decoration: none;
+}
+
+/* library */
+
+
+/* about-page */
+#about .judul {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+/* about-page */
+
+/* news-page */
+#news .btn {
+    background: linear-gradient(to right, #a555ed, #7800e3);
+    width: 120px;
+
+    color: white;
+}
+
+#news .btn:hover {
+    background: none;
+    border: 1px solid #a555ed;
+    color: white;
+    font-weight: 600;
+}
+
+/* news-page */
+
+/* news-detail */
+#news-detail {
+    color: white;
+}
+
+/* news-detail */
+
+/* detail-page */
+
+#detail {
+    color: white;
+}
+
+#detail .breadcrumb a {
+    color: #a555ed;
+}
+
+#detail .game-image {
+    border-radius: 20px;
+}
+
+#detail h6 {
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#detail h1 {
+    font-weight: 600;
+}
+
+#detail table {
+    width: 100%;
+}
+
+#detail table th {
+    color: grey;
+}
+
+#detail .trigger .btn {
+    width: 100%;
+}
+
+#detail .buy {
+    background: linear-gradient(to right, #a555ed, #7800e3);
+    border: none;
+    color: white;
+}
+
+#detail .modal .btn {
+    background: linear-gradient(to right, #a555ed, #7800e3);
+    border: none;
+    color: white;
+    width: 50%;
+}
+
+#detail .modal-body {
+    padding: 30px;
+}
+
+#detail .modal .btn {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#detail .modal .btn-close {
+    margin-left: auto;
+    display: flex;
+}
+
+#detail .cost {
+    color: #a555ed;
+}
+
+#detail img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#detail .text {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+#detail a:hover {
+    color: #a555ed;
+}
+
+/* detail-page */
+
+/* cart */
+#cart .card .game-image {
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#cart .card a {
+    text-decoration: none;
+}
+
+/* cart */
+
+/* order */
+
+#order .breadcrumb a {
+    color: dodgerblue;
+}
+
+#order .breadcrumb a:hover {
+    color: #a555ed;
+}
+
+
+#order a {
+    text-decoration: none;
+}
+
+#order .card {
+    border-radius: 20px;
+}
+
+#order .card img {
+    border-radius: 20px;
+}
+
+/* order */
+
+/* confirm */
+
+#confirm .breadcrumb a {
+    color: dodgerblue;
+}
+
+#confirm .breadcrumb a:hover {
+    color: #a555ed;
+}
+
+#confirm a {
+    text-decoration: none;
+}
+
+#confirm .card {
+    border-radius: 20px;
+}
+
+#confirm .card img {
+    border-radius: 20px;
+}
+
+/* confirm */
+
+/* scan */
+#scan .breadcrumb a {
+    color: dodgerblue;
+}
+
+#scan .breadcrumb a:hover {
+    color: #a555ed;
+}
+#scan a {
+    text-decoration: none;
+}
+
+#scan .qr-code {
+    width: 100%;
+}
+
+#scan .card {
+    border-radius: 20px;
+}
+
+#scan .card img {
+    border-radius: 20px;
+}
+
+
+/* scan */
+
+
+/* footer */
+footer {
+    padding: 30px 30px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    padding-right: 20px;
+}
+
+footer .copyright-text {
+    color: grey;
+    text-align: end;
+}
+
+/* footer */

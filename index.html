@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gime - Game Store</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+
+  <!-- Font & Bg color -->
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+    body {
+      background-color: #131315;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./assets/logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          <a class="nav-link" href="./about-page.html">About</a>
+          <a class="nav-link" href="./news-page.html">News</a>
+          <a href="./login-page.html" class="btn">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+  <!-- hero -->
+  <section id="hero">
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-lg-3">
+          <!-- search -->
+          <form action="">
+            <input type="search" class="form-control" placeholder="Search Game" data-bs-theme="dark" />
+          </form>
+          <!-- search -->
+        </div>
+        <div class="col-lg-9">
+          <!-- menu -->
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-discover-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-discover" type="button" role="tab" aria-controls="pills-discover"
+                aria-selected="true">
+                Discover
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-popular-tab" data-bs-toggle="pill" data-bs-target="#pills-popular"
+                type="button" role="tab" aria-controls="pills-popular" aria-selected="false">
+                Popular
+              </button>
+            </li>
+          </ul>
+          <!-- menu -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="tab-content" id="pills-tabContent">
+            <!-- discover -->
+            <div class="tab-pane fade show active" id="pills-discover" role="tabpanel"
+              aria-labelledby="pills-discover-tab" tabindex="0">
+              <!-- carousel -->
+              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/slide1.png" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><b>Hitman III : Death Awaits</b></h5>
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                      </p>
+                      <a href="./detail-page.html" class="btn btn-outline-light">Buy Now!</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/slide2.png" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><b>Forza Horizon 5</b></h5>
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                      </p>
+                      <a href="./detail-page.html" class="btn btn-outline-light">Buy Now!</a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/slide3.png" class="d-block w-100" alt="..." />
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><b>EA Sport : FC 24</b></h5>
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing.
+                      </p>
+                      <a href="./detail-page.html" class="btn btn-outline-light">Buy Now!</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- carousel -->
+
+              <!-- onsale -->
+              <div class="onsale mt-5">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image4.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h6 class="subtitle">on sale</h6>
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Resident Evil 4</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image5.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h6 class="subtitle">on sale</h6>
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>The Last Of Us Part II</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image6.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <h6 class="subtitle">on sale</h6>
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Dying Light 2</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- onsale -->
+
+              <!-- reccommended -->
+              <div class="reccommended mt-5">
+                <div class="row">
+                  <h5>Reccommended Games</h5>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image7.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Ghost Of Tsushima</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image8.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Resident Evil : Village</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image9.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>APEX Legends</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image10.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>WWE 2K23</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- reccommended -->
+
+              <!-- feature -->
+              <div class="feature mt-5">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="card" style="width: 100%">
+                      <img src="./assets/image11.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./sales-page.html">
+                          <h5 class="card-title">Sales & Special</h5>
+                        </a>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Nesciunt, minima?
+                        </p>
+                        <a href="./sales-page.html">
+                          <h4>Browse</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card" style="width: 100%">
+                      <img src="./assets/image12.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./freegame-page.html">
+                          <h5 class="card-title">Free Games</h5>
+                        </a>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Nesciunt, minima?
+                        </p>
+                        <a href="./freegame-page.html">
+                          <h4>Play Now</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="card" style="width: 100%">
+                      <img src="./assets/image13.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./news-page.html">
+                          <h5 class="card-title">Game News</h5>
+                        </a>
+                        <p class="card-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Nesciunt, minima?
+                        </p>
+                        <a href="./news-page.html">
+                          <h4>Browse</h4>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- feature -->
+            </div>
+            <!-- discover -->
+            <!-- popular -->
+            <div class="tab-pane fade" id="pills-popular" role="tabpanel" aria-labelledby="pills-popular-tab"
+              tabindex="0">
+              <!-- reccommended -->
+              <div class="reccommended">
+                <div class="row">
+                  <h5>Reccommended Games</h5>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image7.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Ghost Of Tsushima</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image8.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Resident Evil : Village</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image9.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>APEX Legends</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image10.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>WWE 2K23</h5>
+                        </a>
+                        <h4 class="cost">IDR 200.000</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- reccommended -->
+
+              <!-- popular-news -->
+              <div class="popular-news mt-5">
+                <div class="row">
+                  <div class="col">
+                    <div class="card mb-3 bg-dark" data-bs-theme="dark" style="max-width: 100%">
+                      <div class="row g-0">
+                        <div class="col-md-6">
+                          <img src="./assets/image-news.png" class="img-fluid rounded-start" alt="..." />
+                        </div>
+                        <div class="col-md-6">
+                          <div class="card-body">
+                            <h6 class="subtitle">popular news</h6>
+                            <h3 class="card-title">
+                              <b>Modern Warfare III Release Date</b>
+                            </h3>
+                            <p class="card-text">
+                              Modern Warfare III is currently scheduled to
+                              release on Friday, November 10th, 2023. The game
+                              will release on the following platforms: PS4/5,
+                              Xbox X|S + Xbox One, PC, Battle.net, Steam. This
+                              all-new campaign continues the story immediately
+                              following the events of Modern Warfare II, with
+                              Makarov taking center stage and causing Task
+                              Force 141 to fight like never before. With a
+                              full-length story, you'll enjoy the usual
+                              cinematic firefights the series is known for, as
+                              well as brand new Open Combat Missions, giving
+                              players a more free-form experience than ever
+                              before.
+                            </p>
+                            <p class="card-text">
+                              <small class="text-body-secondary">Last updated 3 mins ago</small>
+                            </p>
+                            <a href="./news-detail.html">
+                              <h5>Read More</h5>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- popular-news -->
+
+              <!-- free game -->
+              <div class="free-games mt-5">
+                <div class="row">
+                  <h5>Top Free Games</h5>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image14.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Asphalt 9 Legends</h5>
+                        </a>
+                        <h4 class="cost">Free</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image15.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>League Of Legends</h5>
+                        </a>
+                        <h4 class="cost">Free</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image16.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Warriors Orochi 4</h5>
+                        </a>
+                        <h4 class="cost">Free</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <div class="card mt-3" style="width: 100%" data-bs-theme="dark">
+                      <img src="./assets/image17.png" class="card-img-top" alt="..." />
+                      <div class="card-body">
+                        <a href="./detail-page.html" class="game-title">
+                          <h5>Efootball 2023</h5>
+                        </a>
+                        <h4 class="cost">Free</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- free game -->
+            </div>
+            <!-- popular -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- hero -->
+
+  <!-- footer -->
+  <footer class="bg-dark mt-5" data-bs-theme="dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="link">
+            <h6 class="subtitle">quick link</h6>
+            <ul>
+              <li><a href="./about-page.html">About</a></li>
+              <li><a href="./news-page.html">News</a></li>
+              <li><a href="#hero">Discover</a></li>
+              <li><a href="#hero">Popular</a></li>
+              <li><a href="./sales-page.html">Sales & Special</a></li>
+              <li><a href="./freegame-page.html">Free Games</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h6 class="copyright-text">
+            &copy; Copyright Gime, 2023 All Rights Reserved
+          </h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <!-- Bootstrap JS -->
+  <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
